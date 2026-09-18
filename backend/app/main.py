@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message:": "SkillSwap API Funcionando"}
+    return {"message": "SkillSwap API Funcionando"}
